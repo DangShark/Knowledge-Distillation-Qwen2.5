@@ -121,20 +121,6 @@ significantly smaller than the teacher model.
 
 ---
 
-## Suggested Project Structure
-project-root/
-├── data/
-│ ├── gsm8k_train.jsonl
-│ └── gsm8k_test.jsonl
-├── cot_generation/
-├── stage1_sft/
-├── stage2_kd/
-├── evaluation/
-├── scripts/
-└── README.md
-
----
-
 ## References
 - Hinton et al., "Distilling the Knowledge in a Neural Network", 2015
 - Wei et al., "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models", 2023
